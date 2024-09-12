@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    list-style-position: inside;
+}
+
+#stir {
+    color: #4e861f;
+    background-color: #f1ae48
+}
+
+#crumble {
+    color: #eeff00;
+    background-color: #ff0000;
+}
+
+#roll {
+    color:#ff00f2;
+    background-color: #ffc70e;
+}
+
+div.stir-heading {
+    color:#f1ae48;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+div.crumble-heading {
+    color:#ff0000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.roll-ups-heading {
+    color:#ff00f2;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
