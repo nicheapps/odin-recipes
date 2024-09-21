@@ -5,7 +5,15 @@ body {
 
 #stir {
     color: #4e861f;
-    background-color: #f1ae48
+    background-color: #f1ae48;
+}
+
+#stir-border {
+    color: #4e861f;
+    background-color: #f1ae48;
+    border-color: #4e861f;
+    border-width: 3px;
+    border-style:ridge;
 }
 
 #crumble {
@@ -13,9 +21,25 @@ body {
     background-color: #ff0000;
 }
 
+#crumble-border {
+    color: #eeff00;
+    background-color: #ff0000;
+    border-color:#eeff00;
+    border-width: 3px;
+    border-style: ridge;
+}
+
 #roll {
     color:#ff00f2;
     background-color: #ffc70e;
+}
+
+#roll-border {
+    color:#ff00f2;
+    background-color: #ffc70e;
+    border-color: #ff00f2;
+    border-width: 3px;
+    border-style:ridge;
 }
 
 div.stir-heading {
@@ -31,4 +55,10 @@ div.crumble-heading {
 div.roll-ups-heading {
     color:#ff00f2;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+button {
+    font-size: 25px;
+    margin: 8px;
+    padding: 8px;
 }
